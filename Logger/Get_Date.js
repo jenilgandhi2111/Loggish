@@ -9,7 +9,6 @@ const convertToTwoDigit = function (data) {
 const convertToThreeDigit = function (data) {
     data = String(data)
     let len = 3 - data.length
-    console.log(len)
     let finalStr = ""
     for (let i = 0; i < len; i++) {
         finalStr += "0"
