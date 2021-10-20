@@ -1,4 +1,4 @@
-![alt text](https://github.com/jenilgandhi2111/Serverloggerjs/blob/master/Assets/Serverloggeer.jpg)
+![alt text](https://github.com/jenilgandhi2111/Serverloggerjs/blob/master/Assets/Serverloggeer.jpg)<br/>
 A robust logging library to track your applictions log, could be used to track server logs using node js applications also could be used to log some important messages in single node applications.
 
 ## How to install
