@@ -1,6 +1,6 @@
 {
   "name": "serverloggerjs",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A logging library for maintaining server logs for node js",
   "main": "logger.js",
   "scripts": {
