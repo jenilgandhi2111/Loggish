@@ -21,6 +21,7 @@ class log {
     }
     error(text) {
         fs.appendFileSync(this.fileName,
+
             errorLog(text, this.is_Sensitive))
     }
     warning(text) {

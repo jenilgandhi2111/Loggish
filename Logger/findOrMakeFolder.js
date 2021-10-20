@@ -1,7 +1,6 @@
 var fs = require('fs');
 
 const makeDir = function (log_dir = "./Logs") {
-    console.log("callsed")
     const curDate = new Date()
     const fileName = curDate.getDate() + "-" + curDate.getMonth() + "-" + curDate.getFullYear()
     if (fs.existsSync("./Logs/" + fileName + ".txt")) {

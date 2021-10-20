@@ -8,7 +8,6 @@ const convertToTwoDigit = function (data) {
 }
 const convertToThreeDigit = function (data) {
     data = String(data)
-    console.log(data)
     let len = 3 - data.length
     console.log(len)
     let finalStr = ""
