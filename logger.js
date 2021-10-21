@@ -28,6 +28,7 @@ class log {
         fs.appendFileSync(this.fileName,
             warningLog(text, this.is_Sensitive))
     }
+
     custom(text, color = "#ccff00", label = "custom") {
         fs.appendFileSync(this.fileName,
             customLog(text, label, color)
@@ -35,11 +36,13 @@ class log {
     }
     getNewCustomLog(color = "#ccff00", label = "custom") {
         const fileName = this.fileName
-        return function (text) {
+        const newCustomLog = function (text) {
             fs.appendFileSync(fileName,
                 customLog(text, label, color)
             )
         }
+        this.clog = newCustomLog;
+        return newCustomLog
     }
 }
 
