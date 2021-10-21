@@ -21,6 +21,7 @@ const getCurDateTime = function (is_sensitive = false) {
     const curDateTime = new Date()
     var millis = ""
     if (is_sensitive) {
+
         millis = ":" + convertToThreeDigit(curDateTime.getMilliseconds())
     }
 
