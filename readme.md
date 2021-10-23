@@ -37,6 +37,8 @@ A robust logging library to track your applictions log, could be used to track s
     $ cd  ./Logs
     $ cat yourdate.txt
 ```
+## How logs look like?
+![alt text](https://github.com/jenilgandhi2111/Serverloggerjs/blob/master/Assets/Example_1.jpg)<br/>
 
 ## Created By
 - **Jenil J Gandhi (Dharmsinh Desai University Nadiad India).**
