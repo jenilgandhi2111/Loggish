@@ -21,10 +21,10 @@ A robust logging library to track your applictions log, could be used to track s
     log.custom("Just a custom comment",LOG_COLOR,LOG_TAG)
     
     // This is a newly added functionality for creating custom logs.
-    const CustomLog = l.getNewCustomLog("#ccff55", "Execption") // color of the log is first arg and label of the log is the second arg.
+    const CustomLog = log.getNewCustomLog("#ccff55", "Execption") // color of the log is first arg and label of the log is the second arg.
     CustomLog("An Unknown Exception has occured!")
     // OR 
-    l.clog("An Unkown Exception has occured!") // This is also an equivalent way of doing the above thing.
+    log.clog("An Unkown Exception has occured!") // This is also an equivalent way of doing the above thing.
 
 ```
 
