@@ -14,25 +14,30 @@ class log {
     success(text) {
         fs.appendFileSync(this.fileName,
             Success_log(text, this.is_Sensitive));
+        console.log(Success_log(text, this.is_Sensitive))
     }
     info(text) {
         fs.appendFileSync(this.fileName,
             infoLog(text, this.is_Sensitive))
+        console.log(infoLog(text, this.is_Sensitive))
     }
     error(text) {
         fs.appendFileSync(this.fileName,
 
             errorLog(text, this.is_Sensitive))
+        console.log(errorLog(text, this.is_Sensitive))
     }
     warning(text) {
         fs.appendFileSync(this.fileName,
             warningLog(text, this.is_Sensitive))
+        console.log(warningLog(text, this.is_Sensitive))
     }
 
     custom(text, color = "#ccff00", label = "custom") {
         fs.appendFileSync(this.fileName,
             customLog(text, label, color)
         )
+        console.log(customLog(text, label, color))
     }
     getNewCustomLog(color = "#ccff00", label = "custom") {
         const fileName = this.fileName
